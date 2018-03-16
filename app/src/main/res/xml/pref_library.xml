@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.kabouzeid.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory android:title="@string/pref_header_library">
+
+        <com.bonrita.audiograph.preferences.LibraryPreference
+            android:key="library_categories"
+            android:summary="@string/pref_summary_library_categories"
+            android:title="@string/library_categories" />
+
+    </com.kabouzeid.appthemehelper.common.prefs.supportv7.ATEPreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>
