@@ -62,6 +62,7 @@ public class LibraryFragment extends AbsMainActivityFragment implements CabHolde
         getMainActivity().setTaskDescriptionColorAuto();
         setUpToolbar();
         setUpViewPager();
+        setStatusbarColorAuto(view);
     }
 
     private void setUpViewPager() {

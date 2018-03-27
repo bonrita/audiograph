@@ -104,4 +104,7 @@ public final class PreferenceUtil {
         return mPreferences.getBoolean(IGNORE_MEDIA_STORE_ARTWORK, false);
     }
 
+    public final int getLastMusicChooser() {
+        return mPreferences.getInt(LAST_MUSIC_CHOOSER, 0);
+    }
 }

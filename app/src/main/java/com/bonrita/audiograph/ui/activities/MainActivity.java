@@ -54,6 +54,10 @@ public class MainActivity extends AbsSlidingMusicPanelActivity {
         }
 
         setUpDrawerLayout();
+
+        if (savedInstanceState == null) {
+            setMusicChooser(PreferenceUtil.getInstance(this).getLastMusicChooser());
+        }
     }
 
     private void setUpDrawerLayout() {
